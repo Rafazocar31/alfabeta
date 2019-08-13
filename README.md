@@ -1,2 +1,2 @@
 # alfabeta 
-convierte archivos alfabeta en excel 
+Toma archivos descargados de Alfabeta y los guarda en una base de datos para referencia posterior.

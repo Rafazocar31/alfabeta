@@ -3,10 +3,10 @@ import sys
 archivo_dat = open("archivos_alfabeta/manual.dat", "r", encoding="ansi")
 archivo_extra = open("archivos_alfabeta/manextra.txt", "r")
 
-contenido_dat = archivo_dat.readlines()
+lineas_dat = archivo_dat.readlines()
 
 
-for line in contenido_dat:
+for line in lineas_dat:
 	line = line.strip()
 
 	troquel = line[:7]

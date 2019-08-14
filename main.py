@@ -13,10 +13,13 @@ for line in lineas_dat:
 	nombre = line[7:51].strip()
 	presentacion = line[51:75].strip()
 	Laboratorio = line[85:101].strip()
+	precio = line[102:110].strip()
+
 
 	print(f'El troquel es: "{troquel}"')
 	print(f'El nombre es: "{nombre}"')
 	print(f'La presentación es: "{presentacion}"')
 	print(f'El Laboratorio es: "{Laboratorio}"')
+	print(f'El precio es: "{precio}"')
 
 	sys.exit()

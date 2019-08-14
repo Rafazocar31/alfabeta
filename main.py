@@ -12,7 +12,7 @@ for line in lineas_dat:
 	troquel = line[:7]
 	nombre = line[7:51].strip()
 	presentacion = line[51:75].strip()
-	Laboratorio = line[86:101].strip()
+	Laboratorio = line[85:101].strip()
 
 	print(f'El troquel es: "{troquel}"')
 	print(f'El nombre es: "{nombre}"')

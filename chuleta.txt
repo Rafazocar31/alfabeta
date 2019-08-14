@@ -1,8 +1,9 @@
 cd -> cambiar directorio
 mkdir -> make directory
 
-git init [nombre] -> crear una carpeta [nombre] administrada por Git
+git init -> administra el directorio actual con Git
+git init [nombre] -> crear un directorio [nombre] administrado por Git
 git remote add [nombre] [url] -> agregar un repositorio remoto a un proyecto local (si es el repositorio principal, el nombre debería ser "origin")
-git clone [url] -> descargar un repositorio de Git
+git clone [url] -> descargar un repositorio de Git a un directorio con el nombre del repositorio
 git push -> enviar los commit locales al servidor
 git pull -> descargar los commits del servidor al repositorio local

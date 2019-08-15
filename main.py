@@ -16,7 +16,7 @@ def importarArchivosDeAlfabeta(ruta_manual, ruta_manextra):
 		precio = line[105:110].strip()
 		precio = float(precio) / 100
 		fechavc = line[110:118].strip()
-		importado = line[120:121].strip()
+		importado = line[119:120].strip()
 
 	
 		

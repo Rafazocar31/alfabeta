@@ -22,6 +22,7 @@ def importarArchivosDeAlfabeta(ruta_manual, ruta_manextra):
 		codlab = line[123:126].strip()
 		regmed = line[126:131].strip()
 		codbarra = line[132:145].strip()
+		unidades = line[147:149].strip()
 
 		print(f'El troquel es: "{troquel}"')
 		print(f'El nombre es: "{nombre}"')
@@ -35,6 +36,7 @@ def importarArchivosDeAlfabeta(ruta_manual, ruta_manextra):
 		print(f'El codigo de laboratorio es:"{codlab}"')
 		print(f'El registro medico es:"{regmed}"')
 		print(f'El codigo de barra es:"{codbarra}"')
+		print(f'Las unidades son:"{unidades}"')
 		
 
 

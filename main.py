@@ -20,6 +20,7 @@ def importarArchivosDeAlfabeta(ruta_manual, ruta_manextra):
 		tipoventa = line[120:121].strip()
 		iva = line[122:123].strip()
 		codlab = line[123:126].strip()
+		regmed = line[126:132].strip()
 
 		print(f'El troquel es: "{troquel}"')
 		print(f'El nombre es: "{nombre}"')
@@ -31,6 +32,7 @@ def importarArchivosDeAlfabeta(ruta_manual, ruta_manextra):
 		print(f'El tipo de venta es:"{tipoventa}"')
 		print(f'El iva es:"{iva}"')
 		print(f'El codigo de laboratorio es:"{codlab}"')
+		print(f'El registro medico es:"{regmed}"')
 
 
 		sys.exit()

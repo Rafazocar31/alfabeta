@@ -20,7 +20,7 @@ def importarArchivosDeAlfabeta(ruta_manual, ruta_manextra):
 		tipoventa = line[120:121].strip()
 		iva = line[122:123].strip()
 		codlab = line[123:126].strip()
-		regmed = line[126:132].strip()
+		regmed = line[126:131].strip()
 
 		print(f'El troquel es: "{troquel}"')
 		print(f'El nombre es: "{nombre}"')

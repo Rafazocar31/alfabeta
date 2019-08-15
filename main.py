@@ -1,4 +1,5 @@
 import sys
+import datetime 
 
 def importarArchivosDeAlfabeta(ruta_manual, ruta_manextra):
 	archivo_dat = open(ruta_manual, encoding="ansi")
@@ -16,6 +17,9 @@ def importarArchivosDeAlfabeta(ruta_manual, ruta_manextra):
 		precio = line[105:110].strip()
 		precio = float(precio) / 100
 		fechavc = line[110:118].strip()
+		fechavc = datetime.datetime.strptime(fechavc, '%Y%m%d')
+		fechavc = fechavc.strftime('%d/%m/%Y')
+
 		importado = line[119:120].strip()
 		tipoventa = line[120:121].strip()
 		iva = line[122:123].strip()

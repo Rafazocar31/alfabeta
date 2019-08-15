@@ -18,9 +18,8 @@ def importarArchivosDeAlfabeta(ruta_manual, ruta_manextra):
 		fechavc = line[110:118].strip()
 		importado = line[119:120].strip()
 		tipoventa = line[120:121].strip()
+		iva = line[122:123].strip()
 
-	
-		
 		print(f'El troquel es: "{troquel}"')
 		print(f'El nombre es: "{nombre}"')
 		print(f'La presentación es: "{presentacion}"')
@@ -29,6 +28,7 @@ def importarArchivosDeAlfabeta(ruta_manual, ruta_manextra):
 		print(f'La fecha vigente de precio es: "{fechavc}"')
 		print(f'La importacion es:"{importado}"')
 		print(f'El tipo de venta es:"{tipoventa}"')
+		print(f'El iva es:"{iva}"')
 
 
 		sys.exit()

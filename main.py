@@ -72,7 +72,7 @@ def AbrirBaseDeDatosSQLite(ruta_output):
 def crearTablaDrogas(conn):
 	cursor = conn.cursor()
 
-	cursor.execute('DROP TABLE drogas')
+	cursor.execute('DROP TABLE IF EXISTS drogas')
 	conn.commit()
 
 	cursor.execute("""

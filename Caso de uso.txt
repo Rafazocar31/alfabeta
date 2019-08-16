@@ -1,0 +1,15 @@
+CASO DE USO
+
+El usuario entra al sitio de Alfabeta y descarga el catálogo mensual, por ejemplo:
+
+20190809_17384_TEXTO.zip
+
+A continuación entra a saludplena.com.ar/mf/, pone la clave y ve dos botones: "subir catálogo" y "consultar catálogo".
+
+elecciona "subir catálogo". Ve un botón "examinar" para seleccionar un archivo y un botón "guardar" para enviarlo. Apreta "examinar" y elige el archivo que descargó del sitio de Alfabeta.
+
+Cuando toca en "guardar", el archivo se sube al servidor y queda almacenado en una carpeta temporal.
+
+El script de Python descomprime este archivo en OTRA carpeta temporal, abre los archivos manual.dat y manextra.txt que hay adentro y los procesa según el código que ya desarrollamos. A continuación toma la fecha del catálogo mensual extrayéndola del nombre del archivo ZIP y graba todo esto en la base de datos.
+
+Si luego el usuario va a "consultar catálogo", puede buscar drogas por nombre, troquel u otros parámetros a determinar. Se le muestra el precio más reciente con su fecha y se le permiten ver los precios anteriores y los detalles de la droga.

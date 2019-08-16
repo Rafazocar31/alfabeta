@@ -3,8 +3,6 @@ import datetime
 import csv
 import sqlite3
 
-
-
 def importarDrogasDeAlfabeta(ruta_manual, ruta_manextra):
 	drogas = {}
 
@@ -122,6 +120,5 @@ def main():
 	conn = AbrirBaseDeDatosSQLite('alfabeta.sqlite3')
 	crearTablaDrogas(conn)
 	GrabarDrogasEnSQLite(conn, drogas)
-
 
 main()

@@ -3,6 +3,8 @@ import datetime
 import csv
 import sqlite3
 
+
+
 def importarDrogasDeAlfabeta(ruta_manual, ruta_manextra):
 	drogas = {}
 
